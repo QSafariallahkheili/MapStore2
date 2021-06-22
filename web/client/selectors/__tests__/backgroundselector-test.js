@@ -28,7 +28,7 @@ const state = {
     }
 };
 
-describe('Test backgroundselector selectors', () => {
+describe.only('Test backgroundselector selectors', () => {
     it('test metadataSourceSelector', () => {
         const source = metadataSourceSelector(state);
         expect(source).toBe('backgroundSelector');
